@@ -19,4 +19,8 @@
         transform: scale(1.08);
     }
   }
+  
+  &__posterLarge{
+    max-height:250px;
+  }
 }

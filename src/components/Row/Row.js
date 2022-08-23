@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "../../axios";
 import "./Row.scss";
 
-function Row({ title, fetchUrl }) {
+function Row({ title, fetchUrl, isLargeRow }) {
   const [movies, setMovies] = useState([]);
 
   // When a row component loads it will fetch the data from the API and set the state of the movies array to the data it receives from the API.
@@ -26,9 +26,9 @@ function Row({ title, fetchUrl }) {
       <div className="row__posters">
         {movies.map((movie) => (
           <img
-            className="row__posters__poster"
+            className={`row__posters__poster ${isLargeRow && "row__posters__posterLarge"}`}
             key={movie.id}
-            src={`http://image.tmdb.org/t/p/original/${movie.poster_path}`}
+            src={`http://image.tmdb.org/t/p/original/${isLargeRow ? movie.poster_path : movie.backdrop_path}`}
             alt={movie.name}
           />
         ))}
