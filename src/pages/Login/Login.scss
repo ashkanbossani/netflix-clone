@@ -16,7 +16,6 @@
         );
     }
     
-
     &__logo{
         position:fixed;
         left:0;
@@ -36,5 +35,58 @@
         font-weight:600;
         border:none;
         cursor:pointer;
+    }
+
+    &__body{
+        position:absolute;
+        top:30%;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+        width:100%;
+        z-index:1;
+        color:#fff;
+        padding:20px;
+    }
+
+    &__body > h1{
+        font-size: 3.125rem;
+        margin-bottom:20px;
+    }
+
+    &__body > h2 {
+        font-size:2rem;
+        font-weight:400;
+        margin-bottom: 30px;
+        font-family: 'Netflix Sans Light'
+    }
+
+    &__body > h3 {
+        font-size:1.3rem;
+        font-weight: 400;
+        font-family: 'Netflix Sans Light'
+    }
+
+    &__input{
+        margin:20px;
+    }
+
+    &__input > form > input{
+        padding:10px;
+        outline-width:0;
+        height:45.9px;
+        width:30%;
+        border:none;
+        max-width:600px;
+    }
+
+    &__getstarted{
+        padding:14px 20px;
+        font-size:1rem;
+        background-color:#e50914;
+        border:none;
+        font-weight:600;
+        cursor:pointer;
+        color:#fff;
     }
 }

@@ -14,6 +14,26 @@ function Login(props) {
 
         <div className="login__gradient"></div>
       </div>
+      <div className="login__body">
+        <>
+            <h1>
+               Unlimited films, TV programmes and more. 
+            </h1>
+            <h2>
+                Watch anywhere. Cancel at anytime.
+            </h2>
+            <h3> 
+                Ready to wacth? enter your email to create or restart your membership.
+            </h3>
+
+            <div className="login__input">
+                <form>
+                    <input type="email" placeholder="Email Address" />
+                    <button className="login__getstarted">GET STARTED</button>
+                </form>
+            </div>
+        </>
+    </div>
     </div>
   );
 }
