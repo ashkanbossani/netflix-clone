@@ -1,11 +1,13 @@
 .row{
     margin-left:1rem;
     color:white;
-    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size:0.8rem;
 
+&__title{
+  margin-left:1rem;
 }
-
-.row__posters {
+&__posters {
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -34,4 +36,5 @@
         transform: scale(1.09)
     }
   }
+}
 }
