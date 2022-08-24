@@ -3,7 +3,7 @@ import "./Login.scss"
 
 function Login(props) {
     return (
-        <div>
+        <div className="login">
             
         </div>
     );
