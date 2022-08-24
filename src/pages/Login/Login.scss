@@ -46,18 +46,18 @@
         width:100%;
         z-index:1;
         color:#fff;
-        padding:20px;
+        padding:1.25rem;
     }
 
     &__body > h1{
         font-size: 3.125rem;
-        margin-bottom:20px;
+        margin-bottom:1.25rem;
     }
 
     &__body > h2 {
         font-size:2rem;
         font-weight:400;
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
         font-family: 'Netflix Sans Light'
     }
 
@@ -68,13 +68,13 @@
     }
 
     &__input{
-        margin:20px;
+        margin:1.25rem;
     }
 
     &__input > form > input{
-        padding:10px;
+        padding:0.625rem;
         outline-width:0;
-        height:45.9px;
+        height:2.869rem;
         width:30%;
         border:none;
         max-width:600px;

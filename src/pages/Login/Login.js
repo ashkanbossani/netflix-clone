@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import SignIn from "./SignIn";
 import "./Login.scss";
 
-function Login(props) {
+function Login() {
+    const [signIn, setSignIn] = useState(false);
+
   return (
     <div className="login">
       <div className="login__background">
@@ -10,11 +13,12 @@ function Login(props) {
           src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
           alt="login-logo"
         />
-        <button className="login__button">Sign in</button>
+        <button onClick={()=> setSignIn(true)} className="login__button">Sign in</button>
 
         <div className="login__gradient"></div>
       </div>
       <div className="login__body">
+        {signIn ?  ( <SignIn /> ) : (
         <>
             <h1>
                Unlimited films, TV programmes and more. 
@@ -29,10 +33,11 @@ function Login(props) {
             <div className="login__input">
                 <form>
                     <input type="email" placeholder="Email Address" />
-                    <button className="login__getstarted">GET STARTED</button>
+                    <button onClick={()=> setSignIn(true)} className="login__getstarted">GET STARTED</button>
                 </form>
             </div>
         </>
+        )}
     </div>
     </div>
   );
