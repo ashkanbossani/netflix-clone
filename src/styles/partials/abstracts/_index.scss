@@ -1,0 +1,7 @@
+@forward './variables';
+@forward './mixins';
+@forward './typogrophy';
+
+@use './variables';
+@use './mixins';
+@use './typogrophy';

@@ -1,4 +1,7 @@
-
+@use '../../styles/partials/global' as *;
+h1{
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
 .banner{
     color:white;
     object-fit:contain;
