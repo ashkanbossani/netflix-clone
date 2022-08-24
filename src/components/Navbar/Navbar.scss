@@ -4,11 +4,14 @@
     width:100%;
     padding:20px;
     z-index:1;
-
     display:flex;
     justify-content:space-between;
-    background-color:#111;
+    transition-timing-function: ease-in;
+    transition:all 0.5s;
 
+    &__black{
+        background-color: #111;
+    }
     &__logo{
         // position:fixed;
         // left:20px;
