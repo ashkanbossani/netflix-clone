@@ -5,6 +5,17 @@
   margin-left: auto;
   margin-right: auto;
   background: rgba(0, 0, 0, 0.85);
+
+  &--grey{
+    color:grey;
+  }
+
+  &--link{
+    &:hover{
+        cursor:pointer;
+        text-decoration:underline;
+    }
+  }
 }
 
 .signin > form > h1 {
@@ -36,4 +47,10 @@
     font-weight:600;
     cursor:pointer;
     margin-top:1.25rem;
+}
+
+.signin > form > h4{
+    text-align:left;
+    margin-top:30px;
+    font-family: 'Netflix Sans Light'
 }
