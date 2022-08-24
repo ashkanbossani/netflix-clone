@@ -11,7 +11,7 @@
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
-  padding: 20px;
+  padding: 1.25rem;
   cursor: pointer;
 
   &::-webkit-scrollbar {
@@ -21,7 +21,7 @@
   &__poster {
     object-fit: contain;
     width: 100%;
-    max-height: 100px;
+    max-height: 6.25rem;
     transition: transform 450ms;
     margin-right: 0.8rem;
 
@@ -31,7 +31,7 @@
   }
 
   &__posterLarge {
-    max-height: 250px;
+    max-height: 15.625rem;
 
     &:hover{
         transform: scale(1.09)

@@ -2,7 +2,7 @@
     position:fixed;
     top:0;
     width:100%;
-    padding:20px;
+    padding:1.25rem;
     z-index:1;
     display:flex;
     justify-content:space-between;
@@ -13,16 +13,12 @@
         background-color: #111;
     }
     &__logo{
-        // position:fixed;
-        // left:20px;
-        width:80px;
+        width:5rem;
         object-fit:contain;
     }
 
     &__avatar{
-        // position:fixed;
-        // right:30px;
-        width:30px;
+        width:1.875rem;
         object-fit:contain;
     }
 }
