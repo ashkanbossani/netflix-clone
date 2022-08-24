@@ -1,0 +1,13 @@
+.login{
+    position: relative;
+    height:100%;
+    
+
+    &__logo{
+        position:fixed;
+        left:0;
+        width: 9.375rem;
+        object-fit:contain;
+        padding:1.25rem;
+    }
+}
