@@ -22,6 +22,16 @@ function SignIn() {
 
   const login = (e) => {
     e.preventDefault();
+
+    auth.signInWithEmailAndPassword(
+        emailRef.current.value,
+        passwordRef.current.value
+    ).then((authUser) => {
+        console.log(authUser);
+    }).catch(error => {
+        console.log(error);
+    }
+    );
   };
 
   return (
