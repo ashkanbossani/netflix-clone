@@ -13,7 +13,7 @@ function SignIn() {
         </button>
         <h4>
           <span className="signin--grey">New to Netflix? </span>
-          <span className="signin--link">Sign up Now.</span>
+          <span className="signin--link">Sign Up now.</span>
         </h4>
       </form>
     </div>
