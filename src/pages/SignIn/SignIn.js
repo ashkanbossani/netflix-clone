@@ -1,9 +1,16 @@
 import React from 'react';
+import "./SignIn.scss";
 
-function SignIn(p) {
+function SignIn() {
     return (
-        <div>
-            
+        <div className ="signin">
+            <form>
+                <h1>Sign In</h1>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button type="submit" className="signin__button">Sign In</button>
+                <h4></h4>
+            </form>
         </div>
     );
 }
