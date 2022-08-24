@@ -42,8 +42,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
     }
   }
   
-
-
   return (
     <div className="row">
       <h2 className="row__title">{title}</h2>
