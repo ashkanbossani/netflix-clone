@@ -10,14 +10,14 @@ function Row({ title, fetchUrl, isLargeRow }) {
     //if [] it will run once when the row loads, and dont run again
     async function fetchData() {
       const request = await axios.get(fetchUrl);
-      console.log(request);
+      // console.log(request);
       setMovies(request.data.results);
       return request;
     }
     fetchData();
   }, [fetchUrl]);
 
-  console.log(movies);
+  // console.log(movies);
 
   return (
     <div className="row">
