@@ -3,9 +3,10 @@ import Navbar from "../../components/Navbar/Navbar";
 import { useSelector } from "react-redux";
 import "./Profile.scss";
 import { selectUser } from "../../features/userSlice";
+import { auth } from "../../firebase";
 
 function Profile() {
-    const user = useSelector(selectUser);
+  const user = useSelector(selectUser);
   return (
     <div className="profile">
       <Navbar />
@@ -19,8 +20,14 @@ function Profile() {
           />
           <div className="profile__details">
             <h2>{user.email}</h2>
-            <p>Member since {user.createdAt}</p>
-
+            <div className="profile__plans">
+              <button
+                onClick={() => auth.signOut()}
+                className="profile_signout"
+              >
+                Sign Out
+              </button>
+            </div>
           </div>
         </div>
       </div>

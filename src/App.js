@@ -24,7 +24,7 @@ function App() {
         );
       } else {
         console.log("user is logged out");
-        dispatch(logout);
+        dispatch(logout());
       }
     });
     return unsubscribe;
