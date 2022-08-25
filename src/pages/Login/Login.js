@@ -27,7 +27,7 @@ function Login() {
                 Watch anywhere. Cancel at anytime.
             </h2>
             <h3> 
-                Ready to wacth? enter your email to create or restart your membership.
+                Ready to watch? enter your email to create or restart your membership.
             </h3>
 
             <div className="login__input">
