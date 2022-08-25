@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
+import Plans from "../../components/Plans/Plans";
 import { useSelector } from "react-redux";
 import "./Profile.scss";
 import { selectUser } from "../../features/userSlice";
@@ -21,9 +22,11 @@ function Profile() {
           <div className="profile__details">
             <h2>{user.email}</h2>
             <div className="profile__plans">
+                <h3>Plans</h3>
+                <Plans />
               <button
                 onClick={() => auth.signOut()}
-                className="profile_signout"
+                className="profile__signout"
               >
                 Sign Out
               </button>
