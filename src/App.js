@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import HomePage from "./pages/HomePage/HomePage";
 import Login from "./pages/Login/Login";
+import Profile from "./pages/Profile/Profile";
 import "./App.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { auth } from "./firebase";
@@ -37,6 +38,9 @@ function App() {
             <Login />
           ) : (
             <Switch>
+              <Route path='/profile'>
+                <Profile/>
+              </Route>
               <Route exact path="/" component={HomePage} />
             </Switch>
           )}

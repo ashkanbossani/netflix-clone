@@ -15,10 +15,12 @@
     &__logo{
         width:5rem;
         object-fit:contain;
+        cursor:pointer;
     }
 
     &__avatar{
         width:1.875rem;
         object-fit:contain;
+        cursor:pointer;
     }
 }
