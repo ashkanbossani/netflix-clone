@@ -27,22 +27,21 @@ function Plans() {
 
   console.log(products);
 
-  return <div className="plans">
-        {Object.entries(products).map(([productId, productData])=> {
-            return(
-                <div className="plans__plans">
-                    <div className="plans__info">
-                       <h5>{productData.name}</h5>
-                          <h6>{productData.description}</h6>
-                    </div>   
-                    <button>
-                        Subscribe
-                    </button>
-                </div>
-            )
-        }
-        )}
-  </div>;
+  return (
+    <div className="plans">
+      {Object.entries(products).map(([productId, productData]) => {
+        return (
+          <div className="plans__plans">
+            <div className="plans__info">
+              <h5>{productData.name}</h5>
+              <h6>{productData.description}</h6>
+            </div>
+            <button>Subscribe</button>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
 export default Plans;
