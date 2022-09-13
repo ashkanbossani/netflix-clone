@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+<!--
+Hey, thanks for using the awesome-readme-template template.  
+If you have any enhancements, then fork this project and create a pull request 
+or just open an issue with the label "enhancement".
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Don't forget to give this project a star for additional support ;)
+Maybe you can mention me or this repo in the acknowledgements too
+-->
+<div align="center">
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+  <h1>Netflix Clone</h1>
+  <p>A Netflix clone using made with react using Redux for state management of users, and Firebase for both authentication and database. Using Stripe extention to accept payments for diffrent subscriptions.</p>
+    
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- Table of Contents -->
+# Table of Contents
 
-### `npm test`
+- [About the Project](#about-the-project)
+  * [Screenshots](#screenshots)
+  * [Tech Stack](#tech-stack)
+  * [Features](#features)
+- [Getting Started](#getting-started)
+  * [Run Locally](#run-locally)
+- [Usage](#usage)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- About the Project -->
+## About the Project
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- Screenshots -->
+### Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screen Shot 2022-09-07 at 3 39 42 PM](https://user-images.githubusercontent.com/106493984/189779990-0d88d42c-e99b-4edc-a64a-5bb892a4e383.jpg)
+![Screen Shot 2022-09-12 at 5 18 04 PM](https://user-images.githubusercontent.com/106493984/189781245-9fe3a480-07c0-43d3-974d-113bf9ba8552.png)
+![Screen Shot 2022-09-12 at 5 18 46 PM](https://user-images.githubusercontent.com/106493984/189781281-74945570-38f7-487f-873b-8510884afcd0.png)
+![Screen Shot 2022-09-12 at 5 18 14 PM](https://user-images.githubusercontent.com/106493984/189781299-5b5f2b0c-0ef8-4475-be7c-b50c5a76389e.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- TechStack -->
+### Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://sass-lang.com/">SASS</a></li>
+  </ul>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://firebase.google.com/>Firebase</a></li>
+    <li><a href="https://stripe.com/en-ca">Stripe</a></li>
+  </ul>
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<!-- Features -->
+### Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Login and Register to create personal account 
+- View Movie list with diffrent catagories of specific movies. If a movie from the Netflix originials is choosen a trailer will play. 
+- Change between plans and use stripe as a payment method to choose which subscription method works best for you. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<!-- Getting Started -->
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- Run Locally -->
+### Run Locally
 
-### Analyzing the Bundle Size
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  git clone https://github.com/ashkanbossani/netflix-clone.git
+```
 
-### Making a Progressive Web App
+Go to the project directory
+```bash
+ cd NETFLIX-CLONE
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install dependencies
 
-### Advanced Configuration
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Start the client
 
-### Deployment
+```bash
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- Contact -->
+## Contact
 
-### `npm run build` fails to minify
+Ashkan Bossani  - abossani@hotmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: https://github.com/ashkanbossani/netflix-clone
+
+Demo Link: https://netflix-clone-ea6e5.web.app/
+
+
+<!-- Acknowledgments -->
+## Acknowledgements
+
+Resources and libraries used in this project.
+
+ - [Redux](https://redux.js.org/)
+ - [movie-trailer](https://www.npmjs.com/package/movie-trailer)
+ - [firebase](https://www.npmjs.com/package/firebase)
